@@ -1,0 +1,422 @@
+/* extra small */
+@media (max-width:575.98px){
+    /* start header */
+    #navbar{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .nav-head{
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+    #navbar.show{
+        width: 100%;
+        height: 100vh;
+        background-color: #eee;
+        position: fixed;
+        top: 70px;
+        left: 206px;
+        align-items: flex-start;
+    }
+    .navitem{
+        width: 100%;
+        height: 50px;
+        display: block;
+    }
+    .navitem:hover{
+        color: #FEC633;
+        background: #012348;
+        padding-top: 20px;
+    }
+    #header .continer .all-contact{
+        flex-flow: column-reverse wrap;
+        justify-content: center;
+    }
+    .div-form {
+        padding-top: 40px;
+    }
+    .form{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .btns{
+        flex-flow: column wrap;
+    }
+    .btn-head{
+        margin-bottom: 10px;
+    }
+    /* end header */
+    /* start about */
+    #about .continer .contant{
+        flex-flow: column  nowrap;
+    }
+    .part-video {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .info {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* #programs  */
+    #programs .continer .head{
+        font-size: 25px;
+    }
+    #programs .continer .boxes {
+        flex-flow: column wrap;
+    }
+    #programs .continer .boxes .box {
+        flex-basis: 100%;
+    }
+    /* Testimonial */
+    #Testimonial .continer .boxes {
+        flex-flow: column wrap;
+    }
+    #Testimonial .continer .boxes .box {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    /* statistics */
+    .div-statistics {
+        flex-flow: column wrap;
+    }
+    .box-statistics {
+        flex-basis: 100%;
+        padding: 20px;
+        margin-left: 0;
+    }
+    /* contact */
+    #contact .continer .all-contact{
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+    .div-call {
+        margin-left: 22px;
+        margin-top: 45px;
+    }
+    .div-location {
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    /* footer */
+    .m-footer {
+        padding-top: 45px;
+        justify-content: center;
+    }
+    .div-logo {
+        margin-left: 28px;
+        padding-bottom: 35px;
+    }
+    .navbar {
+        display: none;
+    }
+    .links {
+        padding: 0px;
+        display: block;
+    }
+    .hr{
+        width: 75%;
+    }
+    .copytight {
+        padding: 20px 0;
+        font-size: 15px;
+    }
+}
+/* End media Extra Small screen */
+/* ################################################## */
+/* samll screen */
+@media(min-width: 576px) and (max-width: 767.98px){
+    /* start header */
+    #navbar{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .nav-head{
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+    #navbar.show{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: #eee;
+        position: fixed;
+        top: 70px;
+        left: 206px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .navitem{
+        width: 100%;
+        height: 50px;
+    }
+    .navitem:hover{
+        color: #FEC633;
+        background: #012348;
+        padding-top: 20px;
+    }
+    #header .continer .all-contact{
+        flex-flow: column-reverse wrap;
+        justify-content: center;
+    }
+    .div-form {
+        padding-top: 40px;
+    }
+    .form{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .btn-head{
+        margin-bottom: 10px;
+    }
+    /* end header */
+    /* start about */
+    #about .continer .contant{
+        flex-flow: column  nowrap;
+    }
+    .part-video {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .info {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    /*  programs */
+    #programs .continer .boxes .box {
+        flex-basis: 47%;
+    }
+    /* Testimonial */
+    #Testimonial .continer .boxes {
+        flex-flow: column wrap;
+    }
+    #Testimonial .continer .boxes .box {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    /* statistics */
+    .box-statistics{
+        margin-left: 0;
+    }
+    /* contact */
+    #contact .continer .all-contact {
+        flex-flow: column nowrap;
+        padding-top: 40px;
+        align-items: flex-start;
+    }
+    .div-call {
+        flex-flow: column wrap;
+    }
+    .icons {
+        font-size: 25px;
+        padding-bottom: 45px;
+    }
+    .info-call {
+        font-size: 27px;
+        padding-left: 20px;
+    }
+    .div-location {
+        margin: auto;
+        padding: 30px 15px;
+    }
+    .map {
+        width: 375px;
+        height: 355px;
+    }
+    /* footer */
+    .m-footer {
+        padding-top: 45px;
+        justify-content: center;
+    }
+    .div-logo {
+        margin-left: 28px;
+        padding-bottom: 35px;
+    }
+    .navbar {
+        display: none;
+    }
+    .links {
+        padding: 0px;
+        display: block;
+    }
+    .hr{
+        width: 75%;
+    }
+}
+/* end small screen */
+/* ######################################################### */
+/* medium screen */
+@media(min-width: 768px) and (max-width: 991.98px){
+    .logo {
+        padding-left: 15px;
+    }
+    .navitem {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .form {
+        position: absolute;
+        right: 14px;
+        top: 120px;
+        width: 40%;
+    }
+    .content-head {
+        flex-basis: 55%;
+    }
+    .name-college {
+        font-size: 55px;
+    }
+    .btns {
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px 0;
+    }
+    .btn-head{
+        margin: 10px 0;
+    }
+    /* about */
+    #about .continer .contant{
+        flex-flow: column  nowrap;
+    }
+    .part-video {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .info {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    /* programs */
+    #programs .continer .boxes .box {
+        flex-basis: 31%;
+    }
+    #Testimonial .continer .boxes .mary,  #Testimonial .continer .boxes .mohammd{
+        flex-basis: 46%;
+    }
+    #Testimonial .continer .boxes .mart{
+        flex-basis: 93%;
+    }
+    .content{
+        width: 27%;
+    }
+    #Testimonial .continer .boxes .box .div-img {
+        width: 25%;
+        height: 80px;
+    }
+    .name-client {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    .what-say {
+        font-size: 13px;
+        padding-left: 30px;
+    }
+    /* contact */
+    #contact .continer .all-contact {
+        flex-flow: row nowrap;
+    }
+    .div-call {
+        flex-flow: column wrap;
+        margin-left: 65px;
+    }
+    .icons {
+        font-size: 25px;
+        padding-bottom: 45px;
+    }
+    .info-call {
+        font-size: 27px;
+        padding-left: 20px;
+    }
+    .div-location {
+        margin-right: 0;
+        padding: 30px 10px;
+    }
+    .map {
+        width: 380px;
+        height: 355px;
+    }
+    /* footer */
+    .m-footer {
+        padding-top: 45px;
+        justify-content: center;
+    }
+    .div-logo {
+        margin-left: 28px;
+        padding-bottom: 35px;
+    }
+    .navbar {
+        display: none;
+    }
+    .links {
+        padding: 0px;
+        display: block;
+    }
+    .hr{
+        width: 75%;
+    }
+}
+/* large screen */
+/* large screen */
+@media(min-width: 992px) and (max-width: 1999.98px){
+    .navitem {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .form{
+        position: relative;
+        top: 55px;
+        left: 0;
+    }
+    .btns{
+        flex-flow: row nowrap;
+    }
+    .btn-head{
+        margin: 0 10px;
+    }
+    /* about */
+    .info {
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    #Testimonial .continer .boxes .mary,  #Testimonial .continer .boxes .mohammd{
+        flex-basis: 46%;
+    }
+    #Testimonial .continer .boxes .mart{
+        flex-basis: 93%;
+    }
+    /* /contact */
+    #contact .continer .all-contact {
+        flex-flow: row nowrap;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .div-call {
+        flex-flow: column wrap;
+        margin-left: 80px;
+        flex-basis: 50%;
+    }
+    .div-location {
+        margin-right: 55px;
+        flex-basis: 50%;
+    }
+    /* extra large */
+}
+/* extra large */
+/* Extra Large */
+@media(min-width:1200px){
+    #Testimonial .continer .boxes .box{
+        flex-basis: 32.33333%;
+        margin: .5%;
+    }
+}
